@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+.welcome {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(20deg, #080a85 15%, #0b053a 30%, #03020e 48%);
+    position: relative;
+    overflow: hidden;
+}
+
+.welcome h1 {
+    font-family: "Changa One";
+    font-weight: normal;
+    font-size: 144px;
+    left: 46px;
+    top: 155px;
+    position: absolute;
+    color: white;
+}
+
+
+.login-register-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 45px 50px;
+    left: 150px;
+    top: 360px;
+    background: #FFFFFF;
+}
+
+.login-register-container input {
+    height: 30px;
+    width: 80%;
+    border: 1px solid gray;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+.login-register-container button {
+    padding : 5px 20px;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.signin-register-button {
+    background: linear-gradient(20deg, #2e59e6 15%, #080a85 );
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Changa One";
+    font-weight: normal;
+    color: white;
+    
+}
+
+.create-account-button {
+    background: none;
+    margin-top: 10px;
+}
+
+.todo-image {
+    position: absolute;
+    bottom: 0;
+    top: -600px;
+    right: 0;
+    left: 120px;
+    transform: scale(0.46);
+}
